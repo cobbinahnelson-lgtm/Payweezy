@@ -1,0 +1,44 @@
+{
+  "id": "./",
+  "name": "Payweezy Finance Tweets",
+  "short_name": "Payweezy",
+  "description": "A shared finance workspace for balances, income entries, approvals and team activity.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "background_color": "#f5f2ea",
+  "theme_color": "#0c1c33",
+  "lang": "en",
+  "categories": ["finance", "business", "productivity"],
+  "icons": [
+    {"src":"icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"icons/icon-192-maskable.png","sizes":"192x192","type":"image/png","purpose":"maskable"},
+    {"src":"icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},
+    {"src":"icons/icon-512-maskable.png","sizes":"512x512","type":"image/png","purpose":"maskable"}
+  ],
+  "shortcuts": [
+    {
+      "name": "Add income",
+      "short_name": "Income",
+      "description": "Open Payweezy and add an income entry.",
+      "url": "./index.html?action=income",
+      "icons": [{"src":"icons/icon-192.png","sizes":"192x192","type":"image/png"}]
+    },
+    {
+      "name": "Request approval",
+      "short_name": "Approval",
+      "description": "Open Payweezy and request an approval.",
+      "url": "./index.html?action=approval",
+      "icons": [{"src":"icons/icon-192.png","sizes":"192x192","type":"image/png"}]
+    },
+    {
+      "name": "View balances",
+      "short_name": "Balances",
+      "description": "Open Payweezy balances.",
+      "url": "./index.html?action=balances",
+      "icons": [{"src":"icons/icon-192.png","sizes":"192x192","type":"image/png"}]
+    }
+  ]
+}
